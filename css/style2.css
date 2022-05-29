@@ -1,0 +1,51 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #faf6d9;
+}
+
+h1, h3 {
+    font-family: "Lobster", cursive;
+}
+
+.navbar {
+    height: 151px;
+    margin-bottom: 150px;
+    background-image: linear-gradient(to right, #ff1a00, #fb9652, #fb9652, #fb9652, #ff1a00 );
+}
+
+.brandlogo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+    bottom: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.brandlogo>img {
+    max-width: 250px;
+    height: auto
+}
+
+.menubar ul.navbar-nav>li.nav-item>a.nav-link {
+    color: #faf6d9;
+    text-shadow: 1px 2px #ff1a00;
+    padding: 10px 60px; 
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: ease 0.3s all;
+}
+
+footer {  
+    bottom: 0;
+    width: 100%;
+}
+
+#cardMainBody {
+    box-shadow: 8px 8px #936e40;
+    margin-bottom: 30px;
+  }
+
+
+

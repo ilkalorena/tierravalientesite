@@ -1,0 +1,28 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+h1 {
+    font-family: "Lobster", cursive;
+}
+
+
+.jumbotron {
+    background-color: #faf6d9;
+} 
+
+.navbar {
+    background-color: #fb9652;
+    height: 10vh;
+    box-shadow: 1px 7px 10px gray;
+}
+
+img {
+    position: absolute;
+    height: auto;
+    width: 100px;
+    
+    left: calc(50% - 50px); /*50px because half of width property*/
+    top: 50%;
+    box-shadow: 1px 7px 10px gray;
+    border-radius: 50px; /*50px because half of width property*/
+}
